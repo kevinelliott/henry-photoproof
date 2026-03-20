@@ -120,17 +120,17 @@ export default function LandingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-indigo-600">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to streamline your workflow?
           </h2>
-          <p className="text-slate-400 mb-8 text-lg">
+          <p className="text-indigo-100 mb-8 text-lg">
             Join photographers who use PhotoProof to ship faster and delight clients.
           </p>
           <Link
             href="/signup"
-            className="inline-block bg-indigo-500 text-white px-8 py-4 rounded-xl text-base font-semibold hover:bg-indigo-400 transition-colors"
+            className="inline-block bg-white text-indigo-600 px-8 py-4 rounded-xl text-base font-semibold hover:bg-indigo-50 transition-colors"
           >
             Get started for free
           </Link>
